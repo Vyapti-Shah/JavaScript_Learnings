@@ -1,0 +1,19 @@
+body{
+    font-family:Verdana;
+    font-size:2em;
+}
+
+.button{
+    font-size:0.9em;    
+    padding:0.5em;
+    border-radius:100px;
+    background-color:rgb(163, 229, 163);
+    color:rgb(76, 74, 74);
+}
+.button:hover{
+    background-color:green;
+    color:whitesmoke;
+}
+
+
+

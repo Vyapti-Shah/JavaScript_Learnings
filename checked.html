@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Vyapti</title>
+      <link rel="stylesheet" href="checked.css">
+      <!--rel means the relation between the linked file and html document-->  
+   </head>
+   <!--type will be checkbox for square and radio for round-->
+   <body>
+      <!--checkbox-->
+    <p id="prefResult">Rate my code?</p>
+    <input id="my1" type="checkbox" name="like"> <!--name works only for radio buttons and not for checkbox-->
+    <label for="my1">1</label>
+    <input id="my2" type="checkbox" name="like">
+    <label for="my2">2</label>
+    <input id="my3" type="checkbox" name="like">
+    <label for="my3">3</label>
+    <input id="my4" type="checkbox" name="like">
+    <label for="my4">4</label>
+    <input id="my5" type="checkbox" name="like">
+    <label for="my5">5</label>
+    <br>
+    <button id="myButton" type="submit" class="button">submit</button>
+    <br>
+    <p id="myP"></p>
+    <br><hr>
+
+     <!--radio button-->
+    <p id="idenetityResult">Choose your idenetity means for verification?</p>
+    <input id="myPan" type="radio" name="card"><!--name used to get only 1 box(1 option) click at a time if name not used then you can click more than 1 box (option)-->
+    <label for="myPan">Pancard</label>
+    <br>
+    <input id="myPass" type="radio" name="card">
+    <label for="myPass">Passport</label>
+    <br>
+    <input id="myAdhaar" type="radio" name="card">
+    <label for="myAdhaar">Adhaar Card</label>
+    <br>
+    <br>
+    <button id="myButton1" type="submit" class="button">submit</button>
+    <br>
+    <p id="myP1"></p>
+    <input id="myText">
+    <button id="myB0">done</button>
+    <p id="myPara0"></p>
+    <br><hr>
+
+    <!--radio button-->
+    <p id="payResult">Please state your means of payment</p>
+    <input id="myPaytm" type="radio" name="pay">
+    <label for="myPaytm">Paytm</label>
+    <br>
+    <input id="myGP" type="radio" name="pay">
+    <label for="myGP">GooglePay</label>
+    <br>
+    <input id="myCC" type="radio" name="pay">
+    <label for="myCC">Credit Card</label>
+    <br>
+    <input id="myCash" type="radio" name="pay">
+    <label for="myCash">Cash</label>
+    <br>
+    <br>
+    <button id="myButton2" type="submit" class="button">submit</button>
+    <br>
+    <p id="myP2"></p>
+    <input id="myT">
+    <button id="myB">done</button>
+    <p id="myPara"></p>
+    <br>
+    <script src="checked.js"></script>
+   </body>
+</html>
