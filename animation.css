@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(48, 47, 47);
+}
+#myDiv{
+    margin-top: 2px;
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+#mybutton1{
+    margin-top: 230px;
+}
+#myDiv1{
+    margin-top: 2px;
+    background-color: lightgreen;
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
