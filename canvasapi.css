@@ -1,0 +1,24 @@
+#myCanvas{
+    border: 1px solid black;
+    background-color: lightblue;
+}
+
+#myCanvas1{
+    border: 1px solid black;
+    background-color: lightgreen;
+}
+
+#myCanvas2{
+    border: 1px solid black;
+    background-color: pink;
+}
+
+#myCanvas3{
+    border: 1px solid black;
+    background-color: rgb(75, 73, 147);
+}
+
+#myCanvas4{
+    border: 1px solid black;
+    background-color: rgb(224, 163, 120);
+}
